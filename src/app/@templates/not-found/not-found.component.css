@@ -1,0 +1,63 @@
+section{
+    position: relative;
+}
+section .containerNotFound{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.containerNotFound .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(#FFC034,#51CAFE);
+    z-index:0;
+}
+.containerNotFound h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size:5em;
+    line-height: 0.9em;
+    letter-spacing: 4px;
+    mix-blend-mode: multiply;
+    z-index: 20;
+    color: #fff;
+    background: #000;
+    padding-bottom: 20px;
+}
+.containerNotFound span{
+    padding: 5px;
+    border: 1px solid #fff;
+}
+.containerNotFound h2{
+    font-weight: 900;
+    font-size:100px;
+    line-height: 0.9em;
+    color: #fff;
+}
+.containerNotFound h3{
+    font-weight: 900;
+    font-size:25px;
+    line-height: 0.9em;
+    color: #fff;
+}
+
+.containerNotFound .btn{
+    font-size:0.4em;
+    line-height: 0.9em;
+    color: #fff;
+}

@@ -1,0 +1,8 @@
+<section>
+    <div class="containerNotFound" *ngIf="show">
+        <div class=back></div>
+        <h1><span>404</span><h2><br>Page Not Found</h2><h3>or is not finished</h3>
+            <br><a class="btn" [routerLink]="['/home']" (click)="toHome();">Return to Home</a>
+        </h1>
+    </div>
+</section>
