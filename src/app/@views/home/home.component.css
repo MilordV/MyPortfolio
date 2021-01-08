@@ -1,7 +1,5 @@
 .SectionHome{
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: relative;
     font-family:'Lucida Console',monospace;
     display:flex;
     justify-content:center;
@@ -10,13 +8,11 @@
     height:100%;
     width:100%;
     background: #0e0e0e;
-    
 }
 .SectionHome.containerIntro{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    position: absolute;
+    display: flex;
+    overflow:hidden;
 }
 .SectionHome .containerIntro h2{
     position: relative;
@@ -26,7 +22,7 @@
     text-transform: uppercase;
     font-weight: 900;
     color: #222;
-    font-size:5em;
+    font-size:4.5em;
     line-height: 0.9em;
     letter-spacing: 4px;
 }

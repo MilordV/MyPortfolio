@@ -13,6 +13,7 @@ section .container{
     justify-content: center;
     background-color:rgba(63,255,70,0.1);
     backdrop-filter: blur(20px);
+    z-index: 1000;
 }
 .loader{
     position: relative;
