@@ -9,8 +9,10 @@ import { NavigationEnd, NavigationStart, Router } from '@angular/router';
 
 export class LoaderComponent implements OnInit {
   show: boolean = false;
+  soundloader:Howl;
+  constructor(private router:Router) { 
 
-  constructor(private router:Router) { }
+  }
 
   ngOnInit(): void {
     this.router.events.subscribe(e=>{

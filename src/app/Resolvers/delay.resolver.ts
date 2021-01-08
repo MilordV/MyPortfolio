@@ -5,7 +5,7 @@ import { delay } from 'rxjs/operators';
 @Injectable({providedIn:'root'})
 
 export class DelayResolve implements Resolve<Observable<any>> {
-  retard = 1000;
+  retard = 1500;
   constructor() {
   }
 
