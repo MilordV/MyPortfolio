@@ -7,11 +7,8 @@ section .containerNotFound{
     left: 0;
     height: 100%;
     width: 100%;
-<<<<<<< HEAD
     background:linear-gradient(#FFC034,#51CAFE);
     mix-blend-mode: multiply;
-=======
->>>>>>> d8e4a86ddc148534ef55674f1cc78cb64b950565
 }
 .containerNotFound .back{
     position: absolute;
@@ -19,10 +16,6 @@ section .containerNotFound{
     left: 0;
     height: 100%;
     width: 100%;
-<<<<<<< HEAD
-=======
-    background:linear-gradient(#FFC034,#51CAFE);
->>>>>>> d8e4a86ddc148534ef55674f1cc78cb64b950565
     z-index:0;
 }
 .containerNotFound h1{
