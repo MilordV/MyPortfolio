@@ -1,16 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute} from '@angular/router';
-<<<<<<< HEAD
 import {Howl, Howler} from 'howler';
-=======
->>>>>>> d8e4a86ddc148534ef55674f1cc78cb64b950565
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-<<<<<<< HEAD
 
 export class HomeComponent implements OnInit{
    soundinit:Howl;
@@ -33,14 +29,6 @@ export class HomeComponent implements OnInit{
   finish(){
     this.soundHover.unload();
     this.soundinit.unload();
-=======
-export class HomeComponent implements OnInit{
-
-  constructor(private _ac: ActivatedRoute) { }
-
-  ngOnInit(): void {
-    console.log(this._ac.snapshot.data)
->>>>>>> d8e4a86ddc148534ef55674f1cc78cb64b950565
   }
 
 }
